@@ -1,0 +1,20 @@
+# Terraform State Files
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
+# AWS Credentials
+.aws/
+credentials
+config
+
+# LocalStack Files
+localstack/
+
+# Sensitive Files
+*.pem
+*.key
+.env
